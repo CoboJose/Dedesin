@@ -1,0 +1,103 @@
+body{
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url("../Imagenes/Background3");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.formulario{
+	width: 85%;
+	padding: 0;
+	align-content: center;
+	position: absolute;
+	top: 10%;
+	margin-left: 14%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+.formulario h1, p, a{
+	width: 75%;
+	margin-left: 0px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+
+}
+.formulario input[type = "text"], .formulario input[type="cpassword"]{
+	align-content: center;
+	background-color: black;
+	margin-bottom: 2%;
+	border:0px;
+	background: none;
+	display: block;
+	/*margin: 20px auto;*/
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 10px;
+	width: 70%;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.formulario input[type="password"]{
+	align-content: center;
+	
+	margin-bottom: 2%;
+	border:0px;
+	
+	display: block;
+	/*margin: 20px auto;*/
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 10px;
+	width: 70%;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.formulario input[type = "text"]:focus, .formulario input[type="password"]:focus, .formulario input[type="email"]:focus{
+width: 280px;
+border-color:#f1c40f;}
+
+.formulario input[type = "submit"]{
+	border:0px;
+	background: none;
+	display: block;
+	/*margin 20px auto;*/
+	text-align: center;
+	border: 2px solid #bdc3c7;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+
+.formulario input[type = "submit"]:hover{
+	background: #bdc3c7;
+	}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.strongpass {
+	background-color: green
+}
+
+.middlepass {
+	background-color: yellow
+}
+
+.weakpass {
+	background-color: red
+}
+
+.nanpass {
+	background: none;
+}
+	

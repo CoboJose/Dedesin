@@ -1,0 +1,140 @@
+body{
+	padding: 0;	
+	background-image: url("../Imagenes/Background5");
+	background-size: cover;
+}
+.orCliente{
+
+}
+.orFecha{
+
+}
+.boton{
+	width: 100%;
+	color: transparent; 
+	background-color: 
+	transparent; 
+	border-color: transparent;
+	float: left;
+}
+.imgBoton{
+	width: 100%;
+}
+
+.boton2{
+	width: 5%;
+	color: transparent; 
+	background-color: 
+	transparent; 
+	border-color: transparent;
+	float: left;
+}
+
+ /*Tabla*/ 
+table {
+  border-collapse: collapse;
+  margin: 20px;
+  margin-left: 10px;
+  margin-top: 40px;
+  background: black;
+  opacity: 0.7;
+  color: white;
+}
+ th {
+  background: #00FF7F;
+  color: black;
+}
+
+th, td {
+  border: 1px solid #00FF7F;
+  padding: 8px;
+}
+
+tr:hover {
+  background: #d1d1d1;
+}
+ /*Tabla*/ 
+.ordenar{
+	border: #00FF7F solid 0.2em;
+    background: black;
+    opacity: 0.7;
+    width: 94%;
+    color: white;
+    padding: 0.5em;
+    margin: 40px;
+
+}
+h2{
+	margin: 20px;
+	font-size: xx-large;
+}
+.todos{
+	margin: 10px;
+	margin-left: 10px;
+	margin-top: 5px;
+
+}
+#oFecha{
+	width: 48%;
+	float: left;
+}
+#oCliente{
+	width: 48%;
+	float: right;
+}
+#oTodos{
+	width: 32%;
+	clear: left;
+}
+
+#nav{
+	border: #00FF7F solid 0.2em;
+    background: black;
+    opacity: 0.7;
+    width: 94%;
+    color: white;
+    padding: 0.5em;
+    margin: 39px;
+
+}
+
+#datosEdit{
+	border: #00FF7F solid 0.1em;
+	width: 10%;
+	padding: 0.5em;
+	margin: 0.5em;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+
+}
+
+#formEdit{
+	border: #00FF7F solid 0.1em;
+	width: 45%;
+	margin: 0.5em;
+	background-color: black;
+	opacity: 0.8;
+	padding: 0.5em;
+	color: white
+}
+input{
+	background-color: white;
+	opacity: 0.8;
+}
+#nuevoServicio{
+	margin: 10px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+/*Mensajes de Error*/ 
+div.error, div.excepcion {
+	color: red;	
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+ #bNuevo{
+ margin-left: 20px;
+ }

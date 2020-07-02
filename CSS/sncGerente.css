@@ -1,0 +1,43 @@
+header{
+	background-color: #00FF7F;
+	opacity:0.6
+}
+body{ 
+	padding: 0;	
+	background-image: url("../Imagenes/Background5");
+	background-size: cover;
+}
+.serv{
+	border-radius: 60px;
+	color: white;
+	background-color: black;
+	opacity:0.6;
+	border: #00FF7F 3px solid;
+	margin: 10px;
+	padding: 20px;
+}
+.pav{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1{
+	margin: 20px;
+	font-size: xx-large;
+}
+.contrat{
+	margin: 10px;
+	padding: 20px;
+	border-radius: 60px;
+	color: white;
+	background-color: black;
+	opacity:0.6;
+	border: #00FF7F 3px solid;
+}
+.esp{
+	font-size: x-large;
+	color: white;
+	font-weight: bold;
+}
+.but{
+	
+}

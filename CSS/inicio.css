@@ -1,0 +1,59 @@
+body{ 
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("../Imagenes/Background3");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn{width: 30%;}
+.btns{width: 50%;
+margin-left: 5%;}
+.w{
+    flex: 25%;
+    flex-grow: 6;
+    display: inline-flex;
+    height: 12%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background-size: cover;
+    font-size: large;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+button{
+    background-color: black;
+    opacity:0.8;
+    border: 2px solid #2E7D32;
+    border-radius: 12px;
+    color: white;
+    width: 90px;
+    height: 46px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+a{
+text-decoration: none;
+text-align: center;
+color: white;
+}
+.whoiam{
+    border-radius: 60px;
+    color: white;
+    background-color: black;
+    opacity:0.6;
+    border: #00FF7F 3px solid;
+    padding: 24px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin:2%;
+}
+.titulo{
+    margin-left: 5%;
+}

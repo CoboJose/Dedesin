@@ -1,0 +1,148 @@
+body{ 
+	padding: 0;	
+	background-image: url("../Imagenes/Background5");
+	background-size: cover;
+}
+.reloj { 
+	color: white;
+	width: 323px;
+    height: 68px; 
+    padding: 5px 10px; 
+    border: 2px solid black; 
+    font: bold 3.5em dotum, "lucida sans", arial; 
+    text-align: center; 
+    float: right;
+    margin: auto;
+    margin-top: 6%;
+    margin-right: 6%;
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: black;
+	opacity:0.6
+}
+.bienvenido{
+	max-width: 880px;
+	margin-right: auto;
+	margin-left: 6%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.info{
+	max-width: 880px;
+	margin-right: auto;
+	margin-left: 6%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.tod{
+	border-radius: 60px;
+	color: white;
+	background-color: black;
+	opacity:0.6;
+	border: #00FF7F 3px solid;
+	padding: 20px;
+	list-style:none;
+
+}
+.todfg{
+	width: 330px;
+	border-radius: 60px;
+	color: white;
+	background-color: black;
+	opacity:0.6;
+	border: #00FF7F 3px solid;
+	padding: 20px;
+	margin-top: 10px;
+
+}
+.todmc{
+	border-radius: 60px;
+	color: white;
+	background-color: black;
+	opacity:0.6;
+	border: #00FF7F 3px solid;
+	padding: 9px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.todnc{
+	border-radius: 60px;
+	color: white;
+	background-color: black;
+	opacity:0.6;
+	border: #00FF7F 3px solid;
+	padding: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.h2fg{
+	color: white;
+}
+.fg1{
+margin: 30px;
+}
+.fg2{
+margin: 30px;
+}
+.fg3{
+margin: 30px;
+}
+
+.bye{
+	 background-color: black;
+    opacity:0.8;
+    border: 2px solid #2E7D32;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.h1{
+	color: black;
+}
+h2{
+	color: black;
+	margin: 10px;
+	margin-left: 20px;
+}
+.ordfi{
+
+	border: #00FF7F solid 0.2em;
+    background: black;
+    opacity: 0.7;
+    width: 50%;
+    height: 5%;
+    color: white;
+    padding: 30px;
+    margin: 40px;
+}
+.but{
+    background-color: black;
+    opacity:0.8;
+    border: 2px solid #2E7D32;
+    border-radius: 12px;
+    color: white;
+    width: 90px;
+    height: 46px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.adicional{
+	margin:15px;
+	color: white;
+}
+.aSC{
+	color: white;
+}

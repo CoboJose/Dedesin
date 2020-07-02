@@ -1,0 +1,91 @@
+
+body{ 
+	padding: 0;	
+	background-image: url("../Imagenes/Background5");
+	background-size: cover;
+}
+.boton{
+	width: 10%;
+	color: transparent; 
+	background-color: 
+	transparent; 
+	border-color: transparent;
+}
+.imgBoton{
+	width: 100%;
+}
+
+#bEditar{
+	float:right;
+}
+#bBorrar{
+	float:right;
+}
+#bGrabar{
+	float:center;
+	width: 3%;
+}
+#bNuevo{
+	float:center;
+	width: 3%;
+}
+
+#numVehic{
+	border-bottom: black solid 0.1em;
+}
+
+.VehiculosPar{
+	border: black outset 0.15em;
+	border-color: black;
+	border-radius: 1.5em;
+	background-color: #00FF7F;
+	opacity: 0.8;
+	filter: alpha;
+	width: 25%;
+	padding: 0.5%;
+	float: right;
+	margin: 1%;
+	margin-right: 20%;
+	border-top: black solid 0.75em;
+
+}
+.VehiculosImpar{
+	border: black outset 0.15em;
+	border-color: black;
+	background-color: #00FF7F;
+	opacity: 0.8;
+	border-radius: 1.5em;
+	width: 25%;
+	padding: 0.5%;
+	float: left;
+	margin: 1%;
+	margin-left: 20%;
+	border-top: black solid 0.75em;
+
+}
+
+.modVehic{
+
+}
+#datosVehicMod{
+	border: black solid 3px;
+	width: 20%;
+	margin: 1em;
+	background-color: lightblue;
+}
+#formVehicMod{
+	border: black solid 3px;
+	width: 20%;
+	margin: 1em;
+	background-color: lightblue;
+}
+
+
+/* Mensajes de Error */
+div.error, div.excepcion {
+	color: red;	
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+

@@ -1,0 +1,71 @@
+body{
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url("../Imagenes/Background3");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.formulario{
+	width: 100%;
+	padding: 0;
+	align-content: center;
+	position: fixed;
+	top: 10%;
+	left: 12%;
+	/*background: #192a56;*/
+
+	text-align: center;
+}
+.formulario h1{
+	width: 75%;
+	margin-left: -14px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+
+}
+.formulario input[type = "text"], .formulario input[type="password"]{
+	align-content: center;
+	background-color: black;
+	opacity: 0.8;
+	margin-bottom: 2%;
+	border:0px;
+	display: block;
+	text-align: center;
+	border: 2px solid #00FF7F;
+	padding: 14px 10px;
+	width: 70%;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.formulario input[type = "text"]:focus, .formulario input[type="password"]:focus{
+width: 280px;
+border-color:#00FF7F;}
+
+.formulario input[type = "submit"]{
+	display: block;
+	background-color: black;
+	opacity: 0.8;
+	text-align: center;
+	border: 2px solid #00FF7F;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+
+.formulario input[type = "submit"]:hover{
+	background: #00FF7F;
+	}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
